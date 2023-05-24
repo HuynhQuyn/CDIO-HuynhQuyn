@@ -4,9 +4,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link href=“https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap”
+        rel=“stylesheet”>
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
     <title>Document</title>
 </head>
 <body>
-    <h1>dassss</h1>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">Booking.com</li>
+                        <li class="header__navbar-item header__navbar-item--connect">
+                            <span class="header__navbar-tile--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-help">
+                            <a href="" class="header__navbar-item-link">
+                                Trợ giúp
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                            </a>
+                        </li>
+                        <button class="header__navbar-item header__navbar-item-btn ">Resigter</button>
+                        <button class="header__navbar-item header__navbar-item-btn Login">Sign in</button>
+                    </ul>
+                </nav>
+
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="/assets/fonts/logo.png" alt="" class="header__logo-name">
+                    </div>
+                    <div class="header__search">
+                        <input type="text" class="header_search-input" placeholder="Tìm kiếm phòng"></input>
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container ">
+            <img class="container-imgae" alt="Two people playing in the ocean." src="https://q-xx.bstatic.com/xdata/images/xphoto/2880x868/215293417.jpeg?k=562182ee69e27456f94592bee6e4b113125234897dde51ef8a12ffd4ed3e00a3&amp;o=" data-testid="herobanner-image">
+            <div class="grid">
+                <div class="text-content">
+                    <h1 class="text-heading">Sign in, save money</h1>
+                    <p class="text-description">Save 10% or more at participating properties. Just look for the blue Genius label.</p>
+                    <button class="btn-login">
+                        <a class= "btn-login-text" href="">Sign in or register</a>
+                    </button>
+                 </div>
+                 <div class="promotion">
+                    <div class="promotion-title">Offers</div>
+                    <div class="promotion-content">Promotions, deals and special offers for you</div>
+                    <div class="promotion-image">
+                        <div class="promotion-information">
+                            <div class="promotion-image">
+                                <img src="/assets/fonts/promotion1.jpeg" alt="" class="promotion-image-background">
+                            </div>
+                            <div class="information-title">
+                                <div class="information-title-content">The great getaway, your way</div>
+                                <div class="information-title-promotion">Save at least 15% on stays worldwide, from relaxing retreats to off-grid adventures</div>
+                                <button class="btn-title">
+                                    <span class="btn-title-text">Find Getaway Deals</span>
+                                </button>
+                            </div>
+                        </div>  
+                        <div class="promotion-information">
+                            <div class="promotion-image">
+                                <img src="/assets/fonts/promotion2.jpeg" alt="" class="promotion-image-background">
+                            </div>
+                            <div class="information-title">
+                                <div class="information-title-content">Escape for a while</div>
+                                <div class="information-title-promotion">Enjoy the freedom of a monthly stay on Booking.com</div>
+                                <button class="btn-title btn-title-2">
+                                    <span class="btn-title-text">Discover monthly stays</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_location">
+                    <p class="content-title">Prominent location</p>
+                    <p class="content-description">Let's start your journey 
+                        to conquer the world with AGO</p>
+                </div>
+                
+            </div>
+            <!-- slick slider -->
+            <div class="grid2">
+                <div class="image-slider ">
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location1.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Ha Noi</h3>
+                                    <p class="image-title-description">2901 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location2.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Ho Chi Minh</h3>
+                                    <p class="image-title-description">2302 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location3.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Vung Tau</h3>
+                                    <p class="image-title-description">54 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location4.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Da Lat</h3>
+                                    <p class="image-title-description">1471 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location5.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Da Nang</h3>
+                                    <p class="image-title-description">903 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location6.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Nha Trang</h3>
+                                    <p class="image-title-description">630 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location7.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Quang Binh</h3>
+                                    <p class="image-title-description">789 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location8.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Hoi An</h3>
+                                    <p class="image-title-description">322 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+            <script
+              type="text/javascript"
+              src="https://code.jquery.com/jquery-1.11.0.min.js"
+            ></script>
+            <script
+              type="text/javascript"
+              src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+            ></script>
+            <script
+              type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+            ></script>
+        </div>
+
+        <footer class="footer">
+            
+        </footer>
+    </div>
+    <script src="/main.js"></script>
 </body>
 </html>
