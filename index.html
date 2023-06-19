@@ -4,9 +4,790 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="long.css">
+    <link href=“https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap”
+        rel=“stylesheet”>
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    >
+    <title>Home Stay Booking</title>
 </head>
 <body>
-    <h1>dassss</h1>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">HB BOOKING</li>
+                        <li class="header__navbar-item header__navbar-item--connect">
+                            <span class="header__navbar-tile--no-pointer">content</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-help">
+                            <a href="/Search/search.html" class="header__navbar-item-link">
+                                Search
+                                <i class="header__navbar-icon-search fa-sharp fa-solid fa-magnifying-glass" style="color: #fff; margin-left: 6px;"></i>
+                            </a>
+                        </li>
+                        <!-- <button class="header__navbar-item header__navbar-item-btn ">
+                            <a href="HTML/login.html"> Resigter</a>
+                        </button>
+                        <button class="header__navbar-item header__navbar-item-btn Login">
+                            <a href="HTML/login.html"> Sign in</a>
+                        </button> -->
+                        <div class="header__navbar-item user">
+                            <img src="/assets/fonts/user.jpg" alt="" class="user-img">
+                            <span class="username">Huynh Quyn</span>
+                            <ul class="infor-user">
+                                <li class="infor-user-name">
+                                    <a href="/i4room.html">
+                                        Xem đơn đặt phòng
+                                    </a>
+                                </li>
+                                <li class="infor-user-name">
+                                    <a href="/userinfo.html">
+                                        Thông tin cá nhân
+                                    </a>
+                                </li>
+                                <li class="infor-user-name">
+                                    <a href="/login/index.html">
+                                        Đăng Xuất
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </ul>
+                </nav>
+
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="/assets/fonts/logo.png" alt="" class="header__logo-name">
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-info">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <span class="header-location">Da Nang</span>
+                            <i class="header-icon-down fa-solid fa-angle-down "></i>
+                        </div>
+                        <input type="text" class="header_search-input" placeholder="Search for a location or tap a place."></input>
+                        <button class="header__navbar-item header__navbar-item-btn Login">
+                            <a href="HTML/search.html"> <div class="Search_searchIcon">
+                                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </a>
+                        </button>
+                       
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container ">
+            <img class="container-imgae" alt="Two people playing in the ocean." src="https://q-xx.bstatic.com/xdata/images/xphoto/2880x868/215293417.jpeg?k=562182ee69e27456f94592bee6e4b113125234897dde51ef8a12ffd4ed3e00a3&amp;o=" data-testid="herobanner-image">
+            <div class="grid">
+                <div class="text-content">
+                    <h1 class="text-heading">Sign in, save money</h1>
+                    <p class="text-description">Save 10% or more at participating properties. Just look for the blue Genius label.</p>
+                    <button class="btn-login">
+                        <a class= "btn-login-text" href="login/login.html">Sign in or register</a>
+                    </button>
+                </div>
+                <div class="promotion">
+                    <div class="promotion-title">Offers</div>
+                    <div class="promotion-content">Promotions, deals and special offers for you</div>
+                    <div class="promotion-image">
+                        <div class="promotion-information">
+                            <div class="promotion-image">
+                                <img src="/assets/fonts/promotion1.jpeg" alt="" class="promotion-image-background">
+                            </div>
+                            <div class="information-title">
+                                <div class="information-title-content">The great getaway, your way</div>
+                                <div class="information-title-promotion">Save at least 15% on stays worldwide, from relaxing retreats to off-grid adventures</div>
+                                <button class="btn-title">
+                                    <span class="btn-title-text">Find Getaway Deals</span>
+                                </button>
+                            </div>
+                        </div>  
+                        <div class="promotion-information">
+                            <div class="promotion-image">
+                                <img src="/assets/fonts/promotion2.jpeg" alt="" class="promotion-image-background">
+                            </div>
+                            <div class="information-title">
+                                <div class="information-title-content">Escape for a while</div>
+                                <div class="information-title-promotion">Enjoy the freedom of a monthly stay on Booking.com</div>
+                                <button class="btn-title btn-title-2">
+                                    <span class="btn-title-text">Discover monthly stays</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_location">
+                    <p class="content-title">Prominent location</p>
+                    <p class="content-description">Let's start your journey 
+                        to conquer the world with AGO</p>
+                </div>
+            </div>
+            <!-- slick slider -->
+            <div class="grid2">
+                <div class="image-slider ">
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location1.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Ha Noi</h3>
+                                    <p class="image-title-description">2901 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location2.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Ho Chi Minh</h3>
+                                    <p class="image-title-description">2302 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location3.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Vung Tau</h3>
+                                    <p class="image-title-description">54 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location4.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Da Lat</h3>
+                                    <p class="image-title-description">1471 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location5.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Da Nang</h3>
+                                    <p class="image-title-description">903 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location6.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Nha Trang</h3>
+                                    <p class="image-title-description">630 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location7.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Quang Binh</h3>
+                                    <p class="image-title-description">789 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-item ">
+                            <div class="image">
+                                <img src="/assets/fonts/location8.png" alt="">
+                                <div class="image-title">
+                                    <h3 class="image-title-heading">Hoi An</h3>
+                                    <p class="image-title-description">322 Slot</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+            <!-- Tab -->
+            <div class="grid">
+                <div class="content_location">
+                    <p class="content-title">Outstanding location in danang</p>
+                </div>
+                <div class="tabs">
+                    <div class="tab-item active">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Thanh Khue District
+                    </div>
+                    <div class="tab-item">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        SonTra District
+                    </div>
+                    <div class="tab-item">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Ngu Hanh Son District
+                    </div>
+                    <div class="tab-item">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Lien Chieu District
+                    </div>
+                    <div class="tab-item">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        Cam Le District
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="tab-bookrom">
+                    <div class="tab-pane active ">
+                        <div class="grid_column-10 ">
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/257505634.jpg?k=28548385cb4e0e9cc72f27ce78f9feefc395295295493acd5c2d2e2da7892f70&o=&hp=1) ;"></div>
+                                    <h2 class="home_product-name">ThanhKhue Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong17.jpg) ;"></div>
+                                    <h2 class="home_product-name">ThanhKhue Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong15.jpg) ;"></div>
+                                    <h2 class="home_product-name">ThanhKhue Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong14.jpg) ;"></div>
+                                    <h2 class="home_product-name">ThanhKhue Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="tab-pane ">
+                        <div class="grid_column-10 ">
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong13.jpg) ;"></div>
+                                    <h2 class="home_product-name">SonTra Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong12.jpg) ;"></div>
+                                    <h2 class="home_product-name">SonTra Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong1.jpg) ;"></div>
+                                    <h2 class="home_product-name">SonTra Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/fonts/room10.jpg) ;"></div>
+                                    <h2 class="home_product-name">SonTra Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="tab-pane ">
+                        <div class="grid_column-10 ">
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/fonts/room13.jpg) ;"></div>
+                                    <h2 class="home_product-name">NHSON Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/phong20.jpg) ;"></div>
+                                    <h2 class="home_product-name">NHSON Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUt5OIREjbA6vgnZWVDTRk7L9PFkFPtpXdQ&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">NHSON Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfo4Q8XetEgTN9LvOwWlEorevQDuS2pEVs2A&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">NHSON Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="tab-pane ">
+                        <div class="grid_column-10 ">
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBExw0JqihAwdISGfRaPXz7NJB4pIuqj_ZXg&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">LienChieu Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4a2YZCswjMIdc2gvx-_k4GP-lg9Y4USf80A&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">LienChieu Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQomEYW41I3TYUn7x7ZwxGt-diu380KJTo87A&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">LienChieu Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4QoImMcQS9ZKYHjS6jbKu9ZGkoupFFnLNvw&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">LienChieu Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="tab-pane ">
+                        <div class="grid_column-10 ">
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyD4jHbDDnoDaNSc13KTJSvo84iwVOwvqzw&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">CamLe Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(/assets/fonts/fonts/room1.jpg) ;"></div>
+                                    <h2 class="home_product-name">CamLe Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(data:image/jpeg;base64,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) ;"></div>
+                                    <h2 class="home_product-name">CamLe Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid_column-25">
+                                <div class="product">
+                                    <div class="home_product-img" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5sV1Xd-Ds5UqNlL9-78jhJXak41Y-DyEQ3w&usqp=CAU) ;"></div>
+                                    <h2 class="home_product-name">CamLe Homestay</h2>
+                                    <div class="home_product-price">
+                                        <span class="home_product-item-pricenight">750.000đ/Night</span>
+                                    </div>
+                                    <button class="home_product-btn_booking js-home_product-btn_booking">
+                                        <span class= "home_product-btn_booking-text" >Book Now</span>
+                                    </button>
+                                    <div class="home_product-people">
+                                        <span class="home_product-people-num">2-3 <i class="fa-solid fa-person fa-sm"></i> </span>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script
+              type="text/javascript"
+              src="https://code.jquery.com/jquery-1.11.0.min.js"
+            ></script>
+            <script
+              type="text/javascript"
+              src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+            ></script>
+            <script
+              type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+            ></script>
+
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li class="title--footer">Fanpage: HB Booking</li>
+                            <li class="title--footer">Email: homestaybooking@gmail.com</li>
+                            <li class="title--footer">Phone: 0123456789</li>
+                        </ul>
+                    </div>
+                    <div class="col title">
+                        <h3>Information</h3>
+                        <ul>
+                            <li  class="title--footer"><a class="col-content" href="#">About us</a></li>
+                            <li  class="title--footer"><a class="col-content" href="#">Privacy Policy</a></li>
+                            <li  class="title--footer"><a class="col-content" href="#">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Follow us</h3>
+                        <ul class="social-content">
+                            <li class="title--footer"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="title--footer"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="title--footer"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="modal__booking--info">
+                <div class="booking__info--room">
+                    <div class="room__info">
+                        <div class="room__icon">
+                            <div class="room__icon--info">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <span class="room__icon--title">Thong Tin Phong</span>
+                        </div>
+                        <div class="room__content">
+                            <div class="room__content--info">
+                                <span class="content--info">
+                                    Gia Phong
+                                </span>
+                                <span class="content--price">
+                                    5.000.000 dong
+                                </span>
+                            </div>
+                            <div class="room__content--info">
+                                <span class="content--info">
+                                    Dien Tich
+                                </span>
+                                <span class="content--price">
+                                    20 met vuong
+                                </span>
+                            </div>
+                            <div class="room__content--info">
+                                <span class="content--info">
+                                    Dat coc
+                                </span>
+                                <span class="content--price">
+                                    3.000.000 dong
+                                </span>
+                            </div>
+                            <div class="room__content--info">
+                                <span class="content--info">
+                                   Suc Chua
+                                </span>
+                                <span class="content--price">
+                                    4 Nam or Nu
+                                </span>
+                            </div>
+                        </div>
+                        <div class="room__status">
+                            <span class="room__status--info">Trang Thai</span>
+                            <span class="room__status--content">Con Phong</span>
+                        </div>
+                        <div class="room__address">
+                            <div class="room__address--info">Dia Chi</div>
+                            <div class="room__address--content">125/Xo Viet Nghe Tinh, Quan Hai Chau, Tp Da Nang</div>
+                        </div>
+                        <div class="roon__utility">
+                            <div class="room__icon utility">
+                                <div class="room__icon--info">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <span class="room__icon--title">Tien ich</span>
+                            </div>
+                            <div class="utility__info">
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-tv"></i>
+                                    </div>
+                                    <span class="utility-name">Ti vi</span>
+                                </div>
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-toilet"></i>
+                                    </div>
+                                    <span class="utility-name">WC</span>
+                                </div>
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-car"></i>
+                                    </div>
+                                    <span class="utility-name">Cho De Xe</span>
+                                </div>
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-wifi"></i>
+                                    </div>
+                                    <span class="utility-name">Wifi</span>
+                                </div>
+                            </div>
+                            <div class="utility__info">
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                    <span class="utility-name">watch</span>
+                                </div>
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-house-chimney-window"></i>
+                                    </div>
+                                    <span class="utility-name">Cua so</span>
+                                </div>
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-bed"></i>
+                                    </div>
+                                    <span class="utility-name">Giuong</span>
+                                </div>
+                                <div class="room__utility-info">
+                                    <div class="utility-info-icon">
+                                        <i class="fa-solid fa-spa"></i>
+                                    </div>
+                                    <span class="utility-name">spa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking__info--owner">
+                        <div class="booking__info--user">
+                            <div class="room__icon booking__info--icon">
+                                <div class="room__icon--info">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <span class="room__icon--title">Thong Tin Chu Phong</span>
+                            </div>
+                            <div class="info__owner--content">
+
+                                <div class="infor--owner">
+                                    <span class="info-sdt">SDT:0356469917</span>
+                                    <span class="info-days">Ngày đăng: 14-5-2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking__info--price">
+                            <span class="info--price">500 k/đêm</span>
+                            <div class="info--since">
+                                <span class="info--since--title">Từ ngày</span>
+                                <input type="text" placeholder="27/04/2023"class="info--since--content">
+                                </input>
+                                <div class="info--since--icon">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <div class="info--expiration">
+                                <span class="info--since--title">Đến ngày</span>
+                                <input type="text" placeholder="27/04/2023" class="info--since--content"> 
+                                    <div class="info--expiration--icon">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                    </div>
+                                </input>
+                            </div>
+                            <button class="booking__buy">
+                                <a href="/Thanhtoan/pay-form.html" class="booking__buy--text">Đặt phòng ngay</a>
+                            </button>
+                        </div>
+                </div>
+
+            </div>
+            <div class="modal__booking--out js-close-modal">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+    <script src="/login/main.js"></script>
 </body>
 </html>

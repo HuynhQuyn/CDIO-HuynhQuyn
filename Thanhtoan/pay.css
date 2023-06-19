@@ -1,0 +1,207 @@
+.payment-content-left {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.payment-content-right {
+    width: 50%;
+    border-left: 2px solid #ddd;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.payment-content-left p,
+label {
+    font-size: 12px;
+    font-family: var(--main-text-font);
+}
+
+.header__logo-name {
+    margin: 30px;
+}
+
+.payment-content-right-button {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: dashed #dddddd;
+}
+
+.payment-content-right-button input {
+    height: 30px;
+    width: 200px;
+    margin-right: 100px;
+    padding-left: 12px;
+}
+
+.payment-content-right-button button {
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-payment {
+    height: 50px;
+    width: 150px;
+}
+
+.lead {
+    width: 100%;
+}
+
+/*than*/
+.allContainer {
+    position: relative;
+    width: 1280px;
+}
+
+form {
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hotel-image-and-description {
+    float: right;
+    position: absolute;
+    top: 200px;
+}
+
+img {
+    width: 300px;
+    margin: 60px 0 0 100px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin: 0 0 0 100px;
+}
+
+/* form2 */
+.content {
+    height: 900px;
+    width: 100%;
+}
+
+.sp {
+    text-align: center;
+}
+
+.title {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lb-payment {
+    font-size: 16px;
+    text-align: center;
+}
+
+.payment-content-left-method-payment-img {
+    width: 300px;
+}
+
+.logo-payment {
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+.choose {
+    border: 1px solid grey;
+    background-color: rgb(254, 251, 251);
+}
+
+button {
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsave {
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnsave2 {
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-info {
+    height: 150px;
+    width: 300px;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.sp-info {
+    text-align: center;
+    font-size: 19px;
+    margin-right: 80px;
+    color: blue;
+    margin: 10px;
+}
+
+.form-info {
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.link-info {
+    margin-left: 180px;
+}

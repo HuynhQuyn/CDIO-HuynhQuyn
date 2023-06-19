@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Thanhtoan/pay.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a style="text-decoration: none; color: #fff;" href="/index.html">
+                            HB BOOKING
+                        </a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--connect">
+                        <span class="header__navbar-tile--no-pointer">content_location</span>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <!-- <button class="header__navbar-item header__navbar-item-btn ">
+                        <a href="HTML/login.html"> Resigter</a>
+                    </button>
+                    <button class="header__navbar-item header__navbar-item-btn Login">
+                        <a href="HTML/login.html"> Sign in</a>
+                    </button> -->
+                    <div class="header__navbar-item user">
+                        <img src="/assets/fonts/arvarta.jpg" alt="" class="user-img">
+                        <span class="username">Huynh Quyn</span>
+                        <ul class="infor-user">
+                            <li class="infor-user-name">
+                                <a href="">
+                                    Xem đơn đặt phòng</li>
+                                </a>
+                            <li class="infor-user-name">
+                                <a href="">
+                                    Thông tin cá nhân</li>
+                                </a>
+                            <li class="infor-user-name">
+                                <a href="/login/index.html">
+                                    Đăng Xuất</li>
+                                </a>
+                        </ul>
+                    </div>
+                </ul>
+            </nav>
+
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <img src="/assets/fonts/logo.png" alt="" class="header__logo-name">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="pay">
+        <div class="grid">
+            <form>
+                <div class="form-row">
+                    <label for="name" class="form-label">Tên khách hàng:</label>
+                    <input type="text" id="name" name="name" class="form-input" required><br>
+                </div>
+              
+                <div class="form-row">
+                    <label for="email" class="form-label">Địa chỉ email:</label>
+                    <input type="email" id="email" name="email" class="form-input" required><br>
+                </div>
+              
+                <div class="form-row">
+                    <label for="phone" class="form-label">Số điện thoại:</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" required><br>
+                </div>
+              
+                <div class="form-row">
+                    <label for="check-in" class="form-label">Ngày đến:</label>
+                    <input type="date" id="check-in" name="check-in" class="form-input" required><br>
+                </div>
+              
+                <div class="form-row">
+                    <label for="check-out" class="form-label">Ngày đi:</label>
+                    <input type="date" id="check-out" name="check-out" class="form-input" required><br>
+                </div>
+              
+                <div class="form-row">
+                    <label for="quantity" class="form-label">Số lượng:</label>
+                    <input type="number" id="quantity" name="quantity" class="form-input" min="1" max="10" required><br>
+                </div>
+              
+                <div class="form-row">
+                    <label for="payment" class="form-label">Phương thức thanh toán:</label>
+                    <select id="payment" name="payment" class="form-input">
+                      <option value="card">Thẻ tín dụng</option>
+                      <option value="bank">Chuyển khoản ngân hàng</option>
+                      <option value="cash">Thanh toán khi nhận phòng</option>
+                    </select><br>
+                </div>
+    
+                
+                    <input type="submit" value="Thanh toán" class="form-button" onclick="validateForm()">
+                
+              </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "fullname": "nguyenthiha",
+      "username": "thiha",
+      "email": "nguyenthiha@gmail.com",
+      "password": "123"
+    },
+    {
+      "fullname": "huynhvanquyn",
+      "username": "quyn",
+      "email": "huynhquyn11@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "fullname": "huynhvanthuan",
+      "username": "thuan",
+      "email": "thuan@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "fullname": "phihien",
+      "username": "phihien",
+      "email": "hien@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "fullname": "Huỳnh Văn Thuận",
+      "username": "Thuận ",
+      "email": "thuan0811@gmail.com",
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "i4Customer": [
+    {
+      "UserName": "huynhquyn0811",
+      "Phone": "19007123213213",
+      "RoomType": "standard",
+      "numberOfPeople": "3",
+      "CheckinDate": "2023-06-25",
+      "CheckoutDate": "2023-06-28",
+      "id": 1
+    },
+    {
+      "UserName": "Thuận",
+      "Phone": "19001723561898121",
+      "RoomType": "standard",
+      "numberOfPeople": "3",
+      "CheckinDate": "2023-06-25",
+      "CheckoutDate": "2023-07-05",
+      "id": 2
+    },
+    {
+      "UserName": "",
+      "Phone": "",
+      "RoomType": "standard",
+      "numberOfPeople": "",
+      "CheckinDate": "",
+      "CheckoutDate": "",
+      "id": 3
+    }
+  ]
+}

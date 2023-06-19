@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/userinfo.css">
+    <title>Document</title>
+    <style>
+        .frm-infor {
+            display: block;
+        }
+
+        .infoAll-room {
+            margin-bottom: 15px;
+        }
+
+        .info-content {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <div id="head">
+            <div class="logo">
+                <img class="logoimg" src="/assets/fonts/logo.png" alt="logo">
+                <a style="text-decoration: none; color: #000;" href="/index.html">
+                    <h2>HB Booking</h2>
+                </a>
+            </div>
+            <div class="infoname">
+                <span class="font-bold">Username: </span>
+                <span class="text-black-600 text-xl username" id="user-display">Dinh Long</span>
+                <img src="/assets/fonts/user.jpg" alt="User image" class="w-16 h-16 rounded-full">
+            </div>
+           
+           
+            <div class="banner">
+            </div>
+        </div>
+    </header>
+    <section class="content">
+       
+        <div id="content">
+            <div class="photo-content">
+                <img class="photo" src="/assets/img/Avatar-cute-meo.jpg" alt="">
+                <button class="btn-photo">Đổi Ảnh Đại Diện</button>
+            </div>
+            <div class="info-content" >
+                <form class="frm-infor">
+                    <div class="infoAll-room info-room">CustomerName:
+                        <span class="">Minh Homestay Da Nang</span>
+                    </div>
+
+                    <div class="infoAll-room info-phone">Phone:
+                        <span class="">123213</span>
+                    </div>
+
+                    <div class="infoAll-room info-roomtype">Room Type:
+                        <span class="">deluxe</span>
+                    </div>
+
+                    <div class="infoAll-room info-Numberofpeople">Number of people:
+                        <span class="">1231</span>
+                    </div>
+
+                    <div class="infoAll-room info-Check-in">Check-in Date:
+                        <span class="">2023-06-24</span>
+                    </div>
+
+                    <div class="infoAll-room info-Check-out">Check-out Date:
+                        <span class="">2023-06-30</span>
+                    </div>
+
+                    <div class="infoAll-room Totalcost">Total cost:
+                        <span class="">5000000</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="row">
+                <div class="col">
+                    <h3>Liên hệ</h3>
+                    <ul>
+                        <li>Fanpage: HB Booking</li>
+                        <li>Email: homestaybooking@gmail.com</li>
+                        <li>Điện thoại: 0123456789</li>
+                    </ul>
+</div>
+                <div class="col">
+                    <h3>Thông tin</h3>
+                    <ul>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Theo dõi chúng tôi</h3>
+                    <ul class="social-content">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <script src="/info.js"></script>
+     <script >
+        var username = localStorage.getItem("username");
+        var nameuser = document.querySelector('.username');
+        if (nameuser !== null) {
+        nameuser.innerText = username;
+    }
+    </script>
+</body>
+
+</html>
