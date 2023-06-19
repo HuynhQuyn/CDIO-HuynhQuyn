@@ -42,8 +42,15 @@
     margin-left: 0;
 }
 
+<<<<<<< HEAD
 .header__navbar-item:first-child:hover {
     /* cursor: pointer; */
+=======
+
+
+.header__navbar-item:first-child:hover {
+    cursor: pointer;
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
     color: var(--while-color);
 }
 
@@ -84,7 +91,10 @@
     margin: 0 4px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 .header__navbar-tile--no-pointer {
     cursor: text;
     color: var(--while-color);
@@ -97,6 +107,7 @@
     border: none;
     background-color: var(--while-color);
     color: #006ce4;
+<<<<<<< HEAD
     border-radius: 50%;
 }
 
@@ -150,6 +161,8 @@
 .header__navbar-item-btn a {
     text-decoration: none;
     color: #100f0f;
+=======
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 }
 
 .header__navbar-item-btn:hover {
@@ -182,6 +195,7 @@
 .header__search {
     background-color: var(--while-color);
     height: 40px;
+<<<<<<< HEAD
     border-radius: 2px;
     display: flex;
     flex: 1;
@@ -219,6 +233,10 @@
     cursor: pointer;
     position: relative;
     top: 4%;
+=======
+    flex: 1;
+    border-radius: 2px;
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 }
 
 .header__cart {
@@ -233,6 +251,7 @@
 }
 
 .header_search-input {
+<<<<<<< HEAD
     width: 70%;
     height: 25px;
     border: none;
@@ -254,6 +273,15 @@
 }
 .Search_searchIcon:hover {
     opacity: 1;
+=======
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 0 16px;
+    border-radius: 2px;
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 }
 
 /* Slider */
@@ -304,7 +332,11 @@
     text-decoration: none;
     font-size: 1.6rem;
     line-height: 24px;
+<<<<<<< HEAD
     color: var(--black-color);
+=======
+    color: var(--while-color);
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
     font-weight: 700;
     font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
@@ -366,6 +398,13 @@
     margin: 0 10px;
 }
 
+<<<<<<< HEAD
+=======
+.slick-initialized .slick-slide:last-child {
+    /* margin-right: 50px; */
+}
+
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 
 
 .slick-arrow {
@@ -374,7 +413,11 @@
     transform: translateY(-50%); 
     width: 50px;
     height: 50px;
+<<<<<<< HEAD
     z-index: 1;
+=======
+    z-index: 2;
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
     background-color: var(--while-color);
     border-radius: 100%;
     border: 1px solid #ddd;
@@ -445,6 +488,13 @@
     height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.promotion-image-background {
+
+}
+
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 .information-title {
     position: absolute;
     top: 0;
@@ -493,6 +543,7 @@
     line-height: 2rem;
     font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+<<<<<<< HEAD
 
 /* Tab */
 
@@ -638,3 +689,5 @@
     display: -webkit-box;
     text-overflow: ellipsis;
 }
+=======
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3

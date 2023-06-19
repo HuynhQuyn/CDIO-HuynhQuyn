@@ -12,6 +12,7 @@ $(document).ready(function(){
         nextArrow:`<button type='button' class='slick-next pull-right slick-arrow'><i class="fa fa-angle-right"></i></button>`,
         
     }) ;
+<<<<<<< HEAD
 })
 
 
@@ -101,4 +102,14 @@ var nameuser = document.querySelector('.username');
 if (nameuser !== null) {
   nameuser.innerText = username;
 }
+=======
+});
+
+var btn = document.querySelector('.Login');
+
+var form = function() {
+    window.location.href="login.html" //chuyển qua link login
+}
+btn.addEventListener('click', form)
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 

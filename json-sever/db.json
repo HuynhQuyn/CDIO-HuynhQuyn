@@ -45,24 +45,7 @@
       "CheckinDate": "2023-06-25",
       "CheckoutDate": "2023-06-28",
       "id": 1
-    },
-    {
-      "UserName": "Thuận",
-      "Phone": "19001723561898121",
-      "RoomType": "standard",
-      "numberOfPeople": "3",
-      "CheckinDate": "2023-06-25",
-      "CheckoutDate": "2023-07-05",
-      "id": 2
-    },
-    {
-      "UserName": "",
-      "Phone": "",
-      "RoomType": "standard",
-      "numberOfPeople": "",
-      "CheckinDate": "",
-      "CheckoutDate": "",
-      "id": 3
     }
+    
   ]
 }

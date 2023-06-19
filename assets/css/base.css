@@ -35,11 +35,19 @@ html {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+.grid__full-width {
+    width: 100%;
+}
+
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 .grid__row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -5px;
     margin-right: -5px;
+<<<<<<< HEAD
 }
 .grid_column-10{
     display:flex;
@@ -86,4 +94,6 @@ html {
 
 .open {
     display: block;
+=======
+>>>>>>> cdf4ed6a77cb72e93a183094443cdc8427727ae3
 }
